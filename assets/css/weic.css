@@ -1106,3 +1106,10 @@ footer.footer #copyright p {
     text-align: left;
   }
 }
+
+.navbar-brand{
+  position: absolute;
+  height: 60px;
+  top: 50%;
+  margin-top: -22px;
+}
