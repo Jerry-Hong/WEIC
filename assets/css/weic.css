@@ -270,14 +270,12 @@ p {
   }
 }
 .navbar.navbar-fixed-top .navbar-brand {
+  position: absolute;
+  top: 15px;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  height: 60px;
-  line-height: 60px;
-  padding-top: 0px;
-  padding-bottom: 0px;
   letter-spacing: 0.1em;
 }
 .navbar.navbar-fixed-top .navbar-brand:hover {
