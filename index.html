@@ -69,9 +69,9 @@
         <div class="intro-body text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 intro-content">
+                    <div class="col-md-12 intro-content" itemscope itemtype="http://schema.org/Organization">
                         <div class="logo">
-                            <h1>WEIC </h1>
+                            <h1 itemprop="name">WEIC </h1>
                               
                         </div>
                         <!-- //.logo -->
@@ -189,20 +189,21 @@
                     <!-- //.col-md-6 -->
 
                     <div class="col-md-6">
-                        <div class="who-we-are-text">
-                            <h4>2015 WeiC 技術分享會</h4>
+                        <div class="who-we-are-text" itemprop="event" itemscope itemtype="http://schema.org/Event">
+                            <h4 itemprop="name">2015 WeiC 技術分享會</h4>
 
                             <p>
                                 有鑑於中正的學生不容易參加技術社群活動，希望透過學長姐或技術圈的知名人士到中正大學做技術分享，來提升中正學生的視野。希望大家參與能帶給中正一點改變，也期望這樣的技術活動可以持續延續下去! <br>
                                 <blockquote>
-                                    <strong>時間：五月十九日</strong> <br>
-                                    <strong>地點：中正大學圖書館一樓 120階梯教室</strong>
+                                    <meta itemprop="startDate" content="2016-04-21T20:00">
+                                    <strong >時間：五月十九日</strong> <br>
+                                    <strong itemprop="location" itemscope itemtype="http://schema.org/Place">地點：中正大學圖書館一樓 120階梯教室</strong>
                                 </blockquote>
                             </p>
 
                             <div>
-                                <a href="#" class="btn btn-lg btn-rj">前往FB專頁</a>
-                                <a href="http://weic.kktix.cc/events/weic2015" class="btn btn-lg btn-danger">立即報名</a>
+                                <a itemprop="url" href="https://www.facebook.com/pages/%E4%B8%AD%E6%AD%A3%E5%A4%A7%E5%AD%B8%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB%E6%9C%83-WEIC/1409110505976352" class="btn btn-lg btn-rj" >前往FB專頁</a>
+                                <a  itemprop="offers" href="http://weic.kktix.cc/events/weic2015" class="btn btn-lg btn-danger">立即報名</a>
                             </div>
 
                             <!-- //.page-scroll -->
@@ -241,11 +242,11 @@
 
                 <div class="row">
                     <div class="col-sm-6 col-md-4 team-item not-right-column top-column">
-                        <div class="img-rounded team-element">
+                        <div class="img-rounded team-element" itemprop="performer" itemscope="" itemtype="http://schema.org/Person">
                             <div class="team-inner">
                                 <div class="team-detail">
-                                    <div class="team-content">
-                                        <h4>林彥宇</h4>
+                                    <div class="team-content" >
+                                        <h4 itemprop="name">林彥宇</h4>
 
                                         <p>清華大學 系統軟體實驗室研究生</p>
                                     </div>
@@ -255,18 +256,18 @@
                             </div>
                             <!-- //.team-inner -->
 
-                            <img src="assets/img/speaker1.jpg" height="1277" width="729" alt="" class="img-responsive img-rounded"/>
+                            <img itemprop="image" src="assets/img/speaker1.jpg" height="1277" width="729" alt="" class="img-responsive img-rounded"/>
                         </div>
                         <!-- //.team-element -->
                     </div>
                     <!-- //.team-item -->
 
                     <div class="col-sm-6 col-md-4 team-item not-right-column top-column">
-                        <div class="img-rounded team-element">
+                        <div class="img-rounded team-element" itemprop="performer" itemscope="" itemtype="http://schema.org/Person">
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h4>Anna Su</h4>
+                                        <h4 itemprop="name">Anna Su</h4>
 
                                         <p>Doggy 前端工程師 / <br/>Rails Girls Weekly 講者 </p>                                
                                     </div>
@@ -276,18 +277,18 @@
                             </div>
                             <!-- //.team-inner -->
 
-                            <img src="assets/img/speaker2.jpg" height="1344" width="768" alt="" class="img-responsive img-rounded"/>
+                            <img itemprop="image" src="assets/img/speaker2.jpg" height="1344" width="768" alt="" class="img-responsive img-rounded"/>
                         </div>
                         <!-- //.team-element -->
                     </div>
                     <!-- //.team-item -->
 
                     <div class="col-sm-6 col-md-4 team-item not-right-column">
-                        <div class="img-rounded team-element">
+                        <div class="img-rounded team-element" itemprop="performer" itemscope="" itemtype="http://schema.org/Person">
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h4>洪名辰</h4>
+                                        <h4 itemprop="name">洪名辰</h4>
 
                                         <p>畢不了業的 前端工程師 / 中正大學大四</p>                                
                                     </div>
@@ -297,7 +298,7 @@
                             </div>
                             <!-- //.team-inner -->
 
-                            <img src="assets/img/speaker3.jpg" height="1344" width="768" alt="" class="img-responsive img-rounded"/>
+                            <img itemprop="image" src="assets/img/speaker3.jpg" height="1344" width="768" alt="" class="img-responsive img-rounded"/>
                         </div>
                         <!-- //.team-element -->
                     </div>
