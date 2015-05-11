@@ -520,19 +520,14 @@ span.navbar-trigger-close a:hover {
   }
 }
 #intro .intro-body .logo > h1 {
-  display: block;
-  width: 110px;
-  height: 110px;
-  line-height: 110px;
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Raleway', sans-serif;
-  font-size: 80px;
-  font-weight: 700;
-  text-align: center;
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin: auto;
+   display:block;
+   background:url("../img/logo-index.png");
+   width:168px;
+   height:95px;
+   text-indent:100%;
+   white-space:nowrap;
+   overflow:hidden;
+   margin: 0 auto;
 }
 #intro .intro-body .intro-text {
   margin-top: 40px;
